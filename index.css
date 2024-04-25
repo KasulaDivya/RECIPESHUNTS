@@ -1,0 +1,242 @@
+input {
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 10px;
+    width: 60%; /* Adjust width for smaller screens */
+    background-color: #F3D7CA;
+    font-size: 16px; /* Adjust font size for smaller screens */
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(237, 113, 113);
+    border-radius: 10px;
+    padding: 10px 20px; /* Adjust padding for smaller screens */
+    font-size: 16px; /* Adjust font size for smaller screens */
+}
+input:hover{
+
+    border: 3px solid brown;
+    color: black;
+}
+button:hover{
+    background-color: coral;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#mealCart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+}
+.meal-item {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 220px;
+    background-color:transparent;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+}
+.meal-item:hover{
+    width:200px ;
+
+}
+.meal-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.meal-item h3 {
+    margin-top: 0;
+    font-size: 18px;
+    color: white;
+    font-family: oblique;
+}
+.meal-item a {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: coral;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.meal-item a:hover {
+    background-color: darkorange;
+}
+body{
+    background-image:url("https://img5.goodfon.com/wallpaper/nbig/2/7f/natiurmort-kompozitsiia-eda-temnyi-fon-posuda-iagody-keksy-v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#recipies{
+   width:70%;
+   height:300px ;
+   margin-left: 20%;
+   position: relative;
+
+}
+#recipie{
+    width: 100px;
+    position: absolute;
+    top:5px;
+    left:20px;
+    right:20px;
+    background-color: pink;
+    border: 2px solid black;
+}
+p{
+    color: white;
+    font-size: 19px;
+    text-align: justify;
+}
+#hh{
+    height: 200px;
+}
+
+h1{
+    font-size: 55px;
+    color:silver;
+}
+#a{
+    color:skyblue
+}
+
+#b{
+    color: pink;
+}
+.recipe-link a{
+
+    text-decoration: none;
+    color:white;
+    background-color: crimson;
+    padding:8px;
+    border-radius: 5px;
+
+}
+ul li{
+    color: silver;
+    font-size: 25px;
+    
+}
+.footer {
+    background-color:silver;
+    color: #333;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 1600px;
+    
+  }
+  
+  .footer a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+/* For small screens */
+
+@media only screen and (max-width: 480px) {
+    h1{   
+        font-size: 30px;    
+    }
+    input {
+        width: 90%; /* Adjust input width for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    button {
+        padding: 8px 16px; /* Adjust button padding for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .meal-item {
+        width: 70px;
+        height: 130px; /* Adjust meal item width for smaller screens */
+        margin: 8px; /* Adjust meal item margin for smaller screens */
+        padding: 8px;
+        margin-bottom: 10px; /* Adjust meal item padding for smaller screens */
+    }
+
+    .meal-item:hover {
+        width: 80px; /* Adjust width on hover for smaller screens */
+    }
+    #mealCart{
+        margin-top: 35px;
+        height: 700px;
+    }
+    .meal-item a{
+        width: 65px;
+        padding: 2px;
+        font-size: 10px;
+    }
+    .meal-item h3{
+        font-size: 10px;
+    }
+    body{
+        background-image: url('https://wallpapercave.com/wp/wp9506513.jpg');
+    }
+    .meal-item:hover{
+        width:150px ;
+    
+    }
+}
+@media only screen and (max-width: 960px){
+    h1{   
+        font-size: 30px;    
+    }
+    input {
+        width: 90%; /* Adjust input width for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    button {
+        padding: 8px 16px; /* Adjust button padding for smaller screens */
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .meal-item {
+        width: 70px;
+        height: 130px; /* Adjust meal item width for smaller screens */
+        margin: 8px; /* Adjust meal item margin for smaller screens */
+        padding: 8px;
+        margin-bottom: 10px; /* Adjust meal item padding for smaller screens */
+    }
+
+    .meal-item:hover {
+        width: 80px; /* Adjust width on hover for smaller screens */
+    }
+    #mealCart{
+        margin-top: 35px;
+        height: 700px;
+    }
+    .meal-item a{
+        width: 65px;
+        padding: 2px;
+        font-size: 10px;
+    }
+    .meal-item h3{
+        font-size: 10px;
+    }
+    #images{
+        background-image: url("https://wallpapercave.com/wp/wp9506513.jpg");
+        background-size: cover;
+        height: 800%;
+
+    }
+    body{
+        background-color: black;
+    }
+    
+}
